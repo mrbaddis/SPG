@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+    position: absolute;
+    width:158px;
+    height:598px;
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+
+
+#text01A,#text01B,#text01C,
+#text02A,#text02B,#text02C,#text02D,#text02E,
+#text03A,#text03B,#text03C,#text03D,#text03E,#text03F,#text03G{
+    position: absolute;
+    opacity:0;
+    top: 20px;
+}
+#logo{
+    position: absolute;
+    opacity:0;
+    top: 5px;
+}
+ #bk_pic, #bk_pic2, #bk_pic3{
+    position: absolute;
+    opacity:0;
+    top: 0;
+}
+
+#background{
+    position: absolute;
+    width: 160px;
+    height: 600px;
+    background-color: #005181;
+}
+
+#logo_back_1{
+    position: absolute;
+   top: 0px;
+   left: -15px;
+   opacity: 0;
+
+}
+
+#logo_back_2{
+    position: absolute;
+   top: 0px;
+   left: 12px;
+   opacity: 0;
+
+}
+
+
+#logo2{
+    position: absolute;
+    top: 275px;
+}
+/*
+#bg {
+    position: absolute;
+    top:0px;
+    background: #038c8e;
+    width:160px;
+    height:600px;
+    z-index: -4;
+}
+*/
